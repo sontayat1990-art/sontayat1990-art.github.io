@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>son-app</title>
+<meta name="description" content="Small, focused utility apps by son-app.">
+<link rel="icon" href="icon-512.png">
+<style>
+  :root { --bg: #F8FAFC; --fg: #0F172A; --muted: #475569; --card: #FFFFFF; --line: #E2E8F0; --accent: #2563EB; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0F172A; --fg: #F1F5F9; --muted: #94A3B8; --card: #1E293B; --line: #334155; --accent: #60A5FA; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  .lead { color: var(--muted); margin: 0 0 32px; }
+  .app { display: flex; gap: 20px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 20px; }
+  .app img { width: 88px; height: 88px; border-radius: 20px; flex: none; }
+  .app h2 { margin: 0; font-size: 1.25rem; }
+  .app p { margin: 4px 0 8px; color: var(--muted); }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>son-app</h1>
+  <p class="lead">Small, focused utility apps that work offline and respect your privacy.</p>
+
+  <div class="app">
+    <img src="icon-512.png" alt="3D Print Cost Calculator icon">
+    <div>
+      <h2>3D Print Cost Calculator</h2>
+      <p>Price your 3D prints in seconds: filament, electricity, machine wear, labor and profit, plus PDF quotes for your customers.</p>
+      <a href="privacy-policy.html">Privacy policy</a> · Coming soon to Google Play
+    </div>
+  </div>
+
+  <footer>Contact: <a href="mailto:sontaya.t1990@gmail.com">sontaya.t1990@gmail.com</a></footer>
+</main>
+</body>
+</html>
